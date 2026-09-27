@@ -263,41 +263,23 @@ function startCountdown() {
 ========================================= */
 
 const memories = [
-
     {
-        image:
-            "photos/photo1.jpeg",
-
-        text:
-            "One of those moments I'll always remember ❤️"
+        image: "./photos/photo1.jpeg",
+        text: "One of those moments I'll always remember ❤️"
     },
-
     {
-        image:
-            "photos/photo2.jpeg",
-
-        text:
-            "Too many memories, too little space 😂"
+        image: "./photos/photo2.jpeg",
+        text: "Too many memories, too little space 😂"
     },
-
     {
-        image:
-            "photos/photo3.jpeg",
-
-        text:
-            "The kind of moments that never get old 🤝"
+        image: "./photos/photo3.jpeg",
+        text: "The kind of moments that never get old 🤝"
     },
-
     {
-        image:
-            "photos/photo4.jpeg",
-
-        text:
-            "And many more memories waiting to happen... ❤️"
+        image: "./photos/photo4.jpeg",
+        text: "And many more memories waiting to happen... ❤️"
     }
-
 ];
-
 let currentMemory = 0;
 
 
